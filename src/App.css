@@ -2,6 +2,44 @@
   text-align: center;
 }
 
+.user {
+  text-align: center;
+}
+
+.product-item {
+  width: 100px;
+  border: 1px solid;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.text-wrapper {
+  text-decoration: dashed;
+  font-size: 18px;
+  margin-left: 10px;
+  font-family: fangsong;
+}
+
+.btn-wrapper button {
+  background: #FFCA33;
+  margin-left: 10px;
+  border-radius: 6px;
+  height: 39px;
+}
+
+.cart-wrapper {
+  border: 1px solid;
+  padding: 10px;
+  width: 140px;
+  margin-left: 10px;
+}
+
+.addtocart img {
+  width: 50px;
+  position: absolute;
+  margin-left: 116px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -32,6 +70,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

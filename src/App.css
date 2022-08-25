@@ -2,6 +2,63 @@
   text-align: center;
 }
 
+.user {
+  text-align: center;
+}
+
+.product-item {
+  width: 100px;
+  border: 1px solid;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.text-wrapper {
+  text-decoration: dashed;
+  font-size: 18px;
+  margin-left: 10px;
+  font-family: fangsong;
+}
+
+.btn-wrapper button {
+  background: #FFCA33;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 6px;
+  height: 39px;
+  cursor: pointer;
+  /* display: flex; */
+  padding: 10px;
+}
+.addtocart span{
+  position: absolute;
+    margin-left: 168px;
+    background: orange;
+    padding: 1px;
+    color: black;
+    font-size: 19px;
+    border-radius: 50%;
+    width: 19px;
+    z-index: 1;
+    text-align: center;
+}
+
+.cart-wrapper {
+  border: 1px solid;
+  padding: 10px;
+  width: 140px;
+  margin-left: 10px;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.addtocart img {
+  width: 50px;
+  position: absolute;
+  margin-left: 116px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -32,6 +89,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

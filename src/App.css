@@ -23,8 +23,24 @@
 .btn-wrapper button {
   background: #FFCA33;
   margin-left: 10px;
+  margin-top: 10px;
   border-radius: 6px;
   height: 39px;
+  cursor: pointer;
+  /* display: flex; */
+  padding: 10px;
+}
+.addtocart span{
+  position: absolute;
+    margin-left: 168px;
+    background: orange;
+    padding: 1px;
+    color: black;
+    font-size: 19px;
+    border-radius: 50%;
+    width: 19px;
+    z-index: 1;
+    text-align: center;
 }
 
 .cart-wrapper {
@@ -33,7 +49,10 @@
   width: 140px;
   margin-left: 10px;
 }
-
+.container{
+  display: flex;
+  flex-wrap: wrap;
+}
 .addtocart img {
   width: 50px;
   position: absolute;
